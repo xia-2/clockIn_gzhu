@@ -141,7 +141,7 @@ class clockIn():
         """登录融合门户
         """
         self.titlewait.until(
-            EC.title_contains("Unified Identity Authentication"))
+            EC.title_contains("统一身份认证"))
         self.wdwait.until(
             EC.visibility_of_element_located(
                 (By.XPATH, "//div[@class='robot-mag-win small-big-small']")))
